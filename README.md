@@ -38,5 +38,5 @@ This data can also be verified in the generated file election_analysis.txt
 The vote data were made available in an Excel file, which makes it very susceptible to problems during its manipulation and also very easy to make mistakes if the data is not handled correctly. Thus, this project was coded in Python because it is a language widely used in data analysis and because it is easy to reuse the code for a wider range of data.
 
 To reuse this code for use in other election audits we could make some changes to the code.
-One of the modifications would be to set the path/name of the .csv file containing the election data in a variable at the beginning of the code, not needing to change the line containing "file_to_load = os.path.join..."
+One of the modifications would be to set the path/name of the .csv file containing the election data in a variable at the beginning of the code, not needing to change the line containing "file_to_load = os.path.join..."  
 Another change would be to identify the columns. We could create an index that directly references the candidate or municipality along with the declaration of variables without the need to look for the referenced column in the middle of the code to change them.
